@@ -23,6 +23,5 @@ This version of Minesweeper is based on the classic computer game. You can easil
 
 **Sensors**
 - Your agent will receive only one percept:
-* Following an UNCOVER action, your argent will perceive the hint
-number associated with the previous UNCOVER action. This number
-represents how many mines are within that tile’s immediate neighbors. ○ Following a FLAG or UNFLAG action, your agent will perceive -1. 
+   * Following an UNCOVER action, your argent will perceive the hint number associated with the previous UNCOVER action. This number represents how many mines are within that tile’s immediate neighbors. 
+   * Following a FLAG or UNFLAG action, your agent will perceive -1. 
