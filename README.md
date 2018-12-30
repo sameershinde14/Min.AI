@@ -14,14 +14,14 @@ This version of Minesweeper is based on the classic computer game. You can easil
 - Mines are randomly placed throughout the board.
 - Your agent dies when it uncovers a mine.
 
-Actuators
+**Actuators**
 - Your agent has 4 moves:
  * (1) The action UNCOVER reveals a covered tile.
  * (2) The action FLAG places a flag on a tile.
  * (3) The action UNFLAG removes a flag from a tile if that tile has a flag. ○ (4) The action LEAVE ends the game immediately.
 - The actions UNCOVER, FLAG, and UNFLAG are to be coupled with a pair of coordinates which allows the agent to act on a single tile. 
 
-Sensors
+**Sensors**
 - Your agent will receive only one percept:
 * Following an UNCOVER action, your argent will perceive the hint
 number associated with the previous UNCOVER action. This number
